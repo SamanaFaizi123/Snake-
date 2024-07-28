@@ -27,7 +27,7 @@ const handleGameOver = () => {
     clearInterval(setIntervalId);
     gameOverSound.play();
     musicSound.pause()
-    alert("Game Over! press OK to replay...");
+    alert("Game Over! press OK to replay!...");
    
     location.reload();
 }
