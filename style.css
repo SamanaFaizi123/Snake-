@@ -44,7 +44,7 @@
 }.play-board .head{
     background-color: purple;
     background:rgb(6, 168, 17) ;
-    transform: scale(1.02);
+    transform: scale(1.03);
    
 }footer{
   position: relative;
