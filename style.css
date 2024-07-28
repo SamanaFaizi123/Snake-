@@ -43,7 +43,7 @@
     border-radius: 50%;
 }.play-board .head{
     background-color: purple;
-    background:rgb(5, 140, 14) ;
+    background:rgb(6, 168, 17) ;
     transform: scale(1.02);
    
 }footer{
@@ -51,6 +51,4 @@
  top: 280px;
  color: #B8c6dc;
  right: 340px;
-
- 
 }
