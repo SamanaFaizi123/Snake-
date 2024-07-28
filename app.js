@@ -88,6 +88,7 @@ const initGame = () => {
  }
       playBoard.innerHTML = htmlMarkup;
 }
+// change the food and change the poistin of the food
 changFoodPosition();
   setIntervalId =setInterval(initGame, 111);
 document.addEventListener("keydown" , changeDirection);
