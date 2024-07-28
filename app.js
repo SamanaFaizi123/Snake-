@@ -50,6 +50,7 @@ const changeDirection = (event) => {
 }
 
 const initGame = () => {
+    // the start function of game
     if(gameOver ) return handleGameOver();
     musicSound.play();
     let  htmlMarkup = '';
