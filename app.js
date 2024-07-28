@@ -80,7 +80,7 @@ const initGame = () => {
     for(let i = 0; i< snakeBody.length;i++){
         // addind a div for each part of snack's body
         htmlMarkup += `<div class ="head" style = "grid-area: ${snakeBody[i][1]} / ${snakeBody[i][0]}"></div>`;
-        // cheaking if the snake head hit the body,if so set the gameOver true
+        // cheaking if the snake head hit the body,if so set the gameOver is true
     if(i !== 0 && snakeBody[0][1] === snakeBody[i][1] && i !== 0 && snakeBody[0][0] === snakeBody[i][0]){
         gameOver = true;
     }
